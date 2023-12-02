@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Основная часть*/
+header {
+    width: 100%;
+    height: 51.3vw;
+    background-image: url(Фотки-page2/header-light.jpg);
+    background-size: cover;
+}
+body {
+  max-width: 100%;
+}
+
+html {
+    background-color: #ffffff;
+}
+main {
+    max-width: 100%;
+}
+footer {
+    width: 100%;
+}
+/*header*/
+.img-header {
+    width: 100%;
+    
+}
+.text-header {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: #CA5251;
+    font-size: 14vw;
+    text-align: center;
+    align-items: center;
+}
+/*main*/
+
+/*Первый слайдер*/
+.text-zag {
+    font-size: 11vw;
+    color: #CA5251;
+    text-align: center;
+    
+    
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 55%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides1, .mySlides2, .mySlides3 {
+    display: none;
+  }
+
+.mySlides2{
+  height: 40vw;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -5%;
+  padding: 1.5%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5vw;
+  transition: 0.6s ease;
+  border-radius: 0 3% 3% 0;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: -16.8%;
+  border-radius: 3px 0 0 3px;
+}
+.prev1 {
+    left: -17%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*картинки для первого слайдера*/
+.img1 {
+    border: 1.5vw solid #CA5251;
+    border-top: 1.1vw solid #CA5251;
+    border-bottom: 2vw solid #CA5251;
+    position: relative;
+    right: 20%;
+    top: 10%;
+    width: 140%;
+    height: 45vw;
+    margin-top: 2vw;
+    margin: 0 auto;
+;}
+
+/*картинки для второго слайдера*/
+.img2 {
+    border: 1.4vw solid #CA5251;
+    border-top: 2.1vw solid #CA5251;
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: -35%;
+}
+/*картинки для третьего слайдера*/
+.img3 {
+    width: 110%;
+    border: 1.4vw solid #CA5251;
+    border-right: 2vw solid #CA5251;
+    border-left: 2vw solid #CA5251;
+    position: relative;
+    right: 35%;
+    top: 2vw;
+}
+
+/*Тект для второго слайдера*/
+.text2 {
+    color: black;
+    width: 27vw;
+    font-size: 2vw;
+    text-align: left;
+    position: relative;
+    left: 40%;
+    top: -30vw;
+    margin:20px auto;
+    padding:10px;
+    word-break:break-all;
+}
+
+/*Второй слайдер*/
+
+/* Next & previous buttons */
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 38%;
+  width: auto;
+  margin-top: -2%;
+  padding: 1.5%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5vw;
+  transition: 0.6s ease;
+  border-radius: 0 3% 3% 0;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 48%;
+  border-radius: 3% 0 0 3%;
+}
+.prev2 {
+    left: -32%;
+    border-radius: 3% 0 0 3%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover, .next2:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*Третий слайдер*/
+
+/* Next & previous buttons */
+.prev3, .next3 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 2%;
+    padding: 1%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: 0.6s ease;
+    border-radius: 0 3% 3% 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next3 {
+    right: 29%;
+    border-radius: 3% 0 0 3%;
+  }
+  .prev3 {
+      left: -31%;
+      border-radius: 3% 0 0 3%;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev3:hover, .next3:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /*подвал*/
+.logo {
+    width: 19.2%;
+    margin-left: 2.08vw;
+}
+
+.pod {
+    color: black;
+    font-size: 1.3vw;
+    text-align: center;
+    width: 100%;
+    white-space: pre-wrap;
+    position: relative;
+
+}
+
+.contair-one {
+    display: flex;
+    position: relative;
+    bottom: -15vw;
+}
+
+/*Навигация*/
+
+.navigation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 1%;
+}
+#toggleButton{
+  background-color: #C8534F;
+  padding: 10%;
+  border: 0;
+  font-size: 1vw;
+  color: #FBEFEF;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  padding: 1%;
+  background-color: #C8534F;
+  width: 5.4vw;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10%;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+.menu a:hover {
+  background-color: #ad4949;
+}
+
+/*Конец навигации*/
+
+.button-theme {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    padding: 1%;
+    background-color: #CA5251;
+    border: 0;
+    font-size: 1vw;
+    color: #FBEFEF;
+}
+
+.adaptivn {
+  width: 100%;
+  height: auto;
+}

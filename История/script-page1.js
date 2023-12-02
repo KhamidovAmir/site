@@ -41,9 +41,10 @@ function loadFact() {
 
   // Получаем массив фактов (можно загружать с сервера)
   var facts = [
-      "Факт 1",
-      "Факт 2",
-      "Факт 3",
+      "я очень красивый",
+      "я очень умный",
+      "я очень обоятельный",
+      "я очень привлекательный",
   ];
 
   // Проверяем, есть ли сохраненные факты в локальном хранилище
@@ -76,16 +77,44 @@ function getUniqueFact(allFacts, usedFacts) {
 }
 
 // Функция для переключения темы
-function toggleTheme() {
-  // Получаем ссылку на элемент link, который подключает стили
-  var themeStyle = document.getElementById("theme-style");
+document.addEventListener('DOMContentLoaded', function() {
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeLink = document.getElementById('theme-link');
 
-  // Проверяем текущий путь к файлу стилей и меняем на противоположный
-  if (themeStyle.getAttribute("href") === "light-theme.css") {
-      themeStyle.setAttribute("href", "dark-theme.css");
-  } else {
-      themeStyle.setAttribute("href", "light-theme.css");
-  }
-}
+  themeToggle.addEventListener('click', function() {
+      // Получаем текущий активный линк с темой
+      const currentTheme = themeLink.getAttribute('href');
 
-// Вы можете добавить логику для сохранения текущей темы в localStorage, если нужно
+      // Переключаем между темами
+      if (currentTheme === 'light-theme1.css') {
+          themeLink.setAttribute('href', 'dark-theme1.css');
+      } else {
+          themeLink.setAttribute('href', 'light-theme1.css');
+      }
+  });
+});
+
+//
+const yearSlider = document.getElementById("year-slider");
+const images = document.querySelectorAll("#image-container img");
+
+yearSlider.addEventListener("input", function() {
+  const year = this.value - 1; // вычислите разницу от начала года до конца
+  images.forEach(function(image, index) {
+    if (index === year) {
+      image.style.display = "block"; // отображаем нужное изображение
+    } else {
+      image.style.display = "none"; // скрываем остальные изображения
+    }
+  });
+});
+//Навигация
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.getElementById('toggleButton');
+  const menu = document.getElementById('menu');
+
+  toggleButton.addEventListener('click', function() {
+    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    toggleButton.textContent = (menu.style.display === 'block') ? 'Закрыть ' : 'Навигация';
+  });
+});
