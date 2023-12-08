@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #122A56;
+}
+main{
+  background-color: #122A56;
+  width: 100%;
+  height: 100%;
+}
+header{
+  width: 100%;
+  display: block;
+}
+.header-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.img-header {
+  width: 100%;
+  height: auto; 
+}
+
+.text-header {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: #8C3522; 
+  font-size: 10vw; 
+  font-weight: bold; 
+}
+.con-1{
+  display: block;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.rama{
+  background-color: #8C3522;
+  padding: 2%;
+  width: 34%;
+  text-align: center;
+  font-size: 3vw;
+  color: #FBEFEF;
+  }
+.con-2{
+  margin-top: 5%;
+  display: flex;
+}
+.rama-2{
+  background-color: #8C3522;
+  padding: 1%;
+  width: 21%;
+  text-align: center;
+  font-size: 3vw;
+  color: #FBEFEF;
+  margin-left: 18%;
+}
+footer{
+  margin-top: 2%;
+  background-color: #FBEFEF;
+  display: flex;
+}
+.img-footer{
+  width: 15%;
+}
+.text-footer{
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 3%;
+}
+.img-con{
+width: 100%;
+}
+/*Подсказка*/
+[data-title] {
+  position: relative; /* Относительное позиционирование */ 
+  cursor: help; /* Меняем курсор на справочный */
+}
+[data-title]::after {
+  content: attr(data-title); /* Выводим текст из атрибута data-title */
+  position: absolute; /* Абсолютное позиционирование */
+  left: 0; top: 1em; /* Положение подсказки */
+  opacity: 0; /* Скрываем подсказку, делая её прозрачной */
+  transition: 0.5s; /* Время появления подсказки */
+  pointer-events: none; /* Подсказка не реагирует на курсор */
+  background: #2b539f; /* Синий цвет фона */
+  color: #FBEFEF; /* Белый цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+}
+[data-title]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+}
+.button-theme {
+      position: fixed;
+      top: 1%;
+      right: 1%;
+      padding: 1%;
+      background-color: #8C3522;
+      border: 0;
+      font-size: 1vw;
+      color: #FBEFEF;
+}
+/*Навигация*/
+
+.navigation-container {
+position: fixed;
+top: 0;
+left: 0;
+margin: 1%;
+}
+#toggleButton{
+background-color: #8C3522;
+padding: 10%;
+border: 0;
+font-size: 1.2vw;
+color: #FBEFEF;
+}
+
+.menu {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+z-index: 1;
+padding: 1%;
+background-color: #8C3522;
+width: 5.4vw;
+}
+
+.menu ul {
+list-style-type: none;
+padding: 0;
+}
+
+.menu li {
+padding: 10%;
+font-size: 1.1vw;
+text-align: center;
+}
+
+.menu a {
+text-decoration: none;
+color: #ffffff;
+display: block;
+}
+
+.menu a:hover {
+background-color: rgb(240, 56, 56);
+}
+
+/*Конец навигации*/
