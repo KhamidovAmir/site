@@ -83,9 +83,11 @@ footer {
 /* Position the "next button" to the right */
 .next1 {
   right: -16.8%;
+  color: #ad4949;
   border-radius: 3px 0 0 3px;
 }
 .prev1 {
+    color: #ad4949;
     left: -17%;
     border-radius: 3px 0 0 3px;
 }
@@ -129,52 +131,6 @@ footer {
     top: 2vw;
 }
 
-/*Тект для второго слайдера*/
-.text2 {
-    color: black;
-    width: 27vw;
-    font-size: 2vw;
-    text-align: left;
-    position: relative;
-    left: 40%;
-    top: -30vw;
-    margin:20px auto;
-    padding:10px;
-    word-break:break-all;
-}
-
-/*Второй слайдер*/
-
-/* Next & previous buttons */
-.prev2, .next2 {
-  cursor: pointer;
-  position: absolute;
-  top: 38%;
-  width: auto;
-  margin-top: -2%;
-  padding: 1.5%;
-  color: black;
-  font-weight: bold;
-  font-size: 1.5vw;
-  transition: 0.6s ease;
-  border-radius: 0 3% 3% 0;
-}
-
-/* Position the "next button" to the right */
-.next2 {
-  right: 48%;
-  border-radius: 3% 0 0 3%;
-}
-.prev2 {
-    left: -32%;
-    border-radius: 3% 0 0 3%;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev2:hover, .next2:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
 /*Третий слайдер*/
 
 /* Next & previous buttons */
@@ -196,10 +152,12 @@ footer {
   .next3 {
     right: 29%;
     border-radius: 3% 0 0 3%;
+    color: #ad4949;
   }
   .prev3 {
       left: -31%;
       border-radius: 3% 0 0 3%;
+      color: #ad4949;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -241,7 +199,7 @@ footer {
   background-color: #C8534F;
   padding: 10%;
   border: 0;
-  font-size: 1vw;
+  font-size: 1.2vw;
   color: #FBEFEF;
 }
 
@@ -262,7 +220,7 @@ footer {
 
 .menu li {
   padding: 10%;
-  font-size: 1vw;
+  font-size: 1.1vw;
   text-align: center;
 }
 
@@ -277,7 +235,6 @@ footer {
 }
 
 /*Конец навигации*/
-
 .button-theme {
     position: fixed;
     top: 1%;

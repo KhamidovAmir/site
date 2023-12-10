@@ -1,0 +1,202 @@
+header{
+    background-image:url(Фотки-page4/header-light.jpg) ;
+    width: 100%;
+    height: 100%;
+    background-size:cover ;
+}
+.text{
+    color: #C8534F;
+    font-size: 12vw;
+    margin-left: 30%;
+    padding-top: 10%;
+}
+/*Навигация*/
+ 
+ .navigation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 1%;
+  }
+  #toggleButton{
+    background-color: #C8534F;
+    padding: 10%;
+    border: 0;
+    font-size: 1vw;
+    color: #FBEFEF;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    padding: 1%;
+    background-color: #C8534F;
+    width: 5.4vw;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 10%;
+    font-size: 1vw;
+    text-align: center;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+  
+  .menu a:hover {
+    background-color: #ad4949;
+  }
+  
+  /*Конец навигации*/
+  #switchMode{
+   top: 0;
+   right: 1%;
+   position: fixed;
+  }
+
+body{
+   background-color: #FBEFEF;
+   align-items: center;
+   justify-content: center;
+   height: 50vw;
+   margin: 0;
+}
+h2{
+   padding: 6vw;
+   text-align: center;
+   margin: 0;
+   font-size: 2.5vw;
+}
+.kviz-box{
+    margin-top: 10%;
+    margin-left: 25%;
+   padding-bottom: 2vw;
+   border-radius: 2vw;
+   width: 50vw;
+   height: 30%;
+   background-color: #CA5251;
+   color: white;
+}
+.kviz-header{
+   padding: 5%;
+}
+ul{
+   list-style: none;
+   padding: 0;
+}
+ul li{
+   font-size: 3vw;
+   margin: 5% 0;
+}
+ul li label{
+   cursor: pointer;
+}
+.button-kviz{
+   background-color: #FBEFEF;
+   color: #CA5251;
+   width: 20vw;
+   height: 5vw;
+   border: none;
+   display: block;
+   cursor: pointer;
+   font-size: 3vw;
+   margin-left: 30%;
+   text-transform: uppercase;  
+   transition: all 0.5s ease;
+}
+.reload{
+   background-color: #FBEFEF;
+   color: #CA5251;
+   width: 25vw;
+   height: 5vw;
+   border: none;
+   display: block;
+   cursor: pointer;
+   font-size: 3vw;
+   margin-left: 25%;
+   text-transform: uppercase;  
+   transition: all 0.5s ease;
+}
+.footer-img{
+    width:12vw;
+    height: 8vw;
+}
+.footer-Text{
+     top: 235%;
+     width: 50vw;
+     left:20%;
+     font-size:1.5vw;
+     text-align: left;
+     margin-left: 5%;
+}
+footer{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;  
+}
+.button-theme {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    padding: 1%;
+    background-color: #C8534F;
+    border: 0;
+    font-size: 1vw;
+    color: #FBEFEF;
+}
+/*Навигация*/
+
+.navigation-container {
+position: fixed;
+top: 0;
+left: 0;
+margin: 1%;
+}
+#toggleButton{
+background-color: #C8534F;
+padding: 10%;
+border: 0;
+font-size: 1.2vw;
+color: #FBEFEF;
+}
+
+.menu {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+z-index: 1;
+padding: 1%;
+background-color: #C8534F;
+width: 5.4vw;
+}
+
+.menu ul {
+list-style-type: none;
+padding: 0;
+}
+
+.menu li {
+padding: 10%;
+font-size: 1.1vw;
+text-align: center;
+}
+
+.menu a {
+text-decoration: none;
+color: #ffffff;
+display: block;
+}
+
+.menu a:hover {
+background-color: #ad4949;
+}
