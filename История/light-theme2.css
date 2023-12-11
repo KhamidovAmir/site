@@ -57,7 +57,7 @@ footer {
 }
 
 /* Hide the images by default */
-.mySlides1, .mySlides2, .mySlides3 {
+.mySlides1, .mySlides3 {
     display: none;
   }
 
@@ -135,17 +135,17 @@ footer {
 
 /* Next & previous buttons */
 .prev3, .next3 {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: 2%;
-    padding: 1%;
-    color: black;
-    font-weight: bold;
-    font-size: 1.5vw;
-    transition: 0.6s ease;
-    border-radius: 0 3% 3% 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 2%;
+  padding: 1%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5vw;
+  transition: 0.6s ease;
+  border-radius: 0 3% 3% 0;
   }
   
   /* Position the "next button" to the right */
@@ -249,4 +249,16 @@ footer {
 .adaptivn {
   width: 100%;
   height: auto;
+}
+.text-3{
+  color: black;
+  width: 27vw;
+  font-size: 2vw;
+  text-align: left;
+  position: relative;
+  right: -55%;
+  top: -35vw;
+  margin:20px auto;
+  padding:10px;
+  word-break:break-all;
 }

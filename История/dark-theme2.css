@@ -139,12 +139,12 @@ background-color: #717171;
 }
 /*картинки для третьего слайдера*/
 .img3 {
-  width: 110%;
+  width: 140%;
   border: 1.4vw solid #8C3522;
   border-right: 2vw solid #8C3522;
   border-left: 2vw solid #8C3522;
   position: relative;
-  right: 35%;
+  left: 20%;
   top: 2vw;
 }
 
