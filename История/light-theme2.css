@@ -82,7 +82,7 @@ footer {
 
 /* Position the "next button" to the right */
 .next1 {
-  right: -16.8%;
+  right: 33%;
   color: #ad4949;
   border-radius: 3px 0 0 3px;
 }
@@ -105,8 +105,8 @@ footer {
     position: relative;
     right: 20%;
     top: 10%;
-    width: 140%;
-    height: 45vw;
+    width: 90%;
+    height: 30vw;
     margin-top: 2vw;
     margin: 0 auto;
 ;}
@@ -250,15 +250,28 @@ footer {
   width: 100%;
   height: auto;
 }
-.text-3{
+.text-3 {
   color: black;
   width: 27vw;
   font-size: 2vw;
   text-align: left;
-  position: relative;
-  right: -55%;
-  top: -35vw;
-  margin:20px auto;
-  padding:10px;
+  position: absolute;
+  top: 3vw;
+  right: -21vw;
+  width: 31vw;
+  margin: 1vw auto;
+  padding: 0.12vw;
   word-break:break-all;
+}
+
+.TXT1 {
+  position: absolute;
+  top: 0.8vw;
+  width: 31vw;
+  right: -18vw;
+  font-size: 2vw;
+  margin: 1vw auto;
+  padding: 0.12vw;
+  text-align: left;
+  color: black;
 }
