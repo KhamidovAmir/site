@@ -61,10 +61,6 @@ footer {
     display: none;
   }
 
-.mySlides2{
-  height: 40vw;
-}
-
 /* Next & previous buttons */
 .prev1, .next1 {
   cursor: pointer;

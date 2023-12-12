@@ -121,3 +121,33 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleButton.textContent = (menu.style.display === 'block') ? 'Закрыть ' : 'Навигация';
   });
 });
+document.addEventListener("DOMContentLoaded", function() {
+  const slides = document.querySelectorAll(".slide");
+  const prevButton = document.querySelector(".prev-button");
+  const nextButton = document.querySelector(".next-button");
+
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      if (i === index) {
+        slide.classList.add("active");
+      } else {
+        slide.classList.remove("active");
+      }
+    });
+  }
+
+  function showNextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function showPrevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  nextButton.addEventListener("click", showNextSlide);
+  prevButton.addEventListener("click", showPrevSlide);
+});
