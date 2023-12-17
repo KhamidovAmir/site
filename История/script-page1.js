@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleButton.textContent = (menu.style.display === 'block') ? 'Закрыть ' : 'Навигация';
   });
 });
+//Личности
 document.addEventListener("DOMContentLoaded", function() {
   const slides = document.querySelectorAll(".slide");
   const prevButton = document.querySelector(".prev-button");

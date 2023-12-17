@@ -30,13 +30,13 @@ footer {
   
 }
 .text-header {
-  position: absolute;
-  top: 20%;
-  right: 5%;
+  position: relative;
+    width: 50vw;
+    top: 20%;
+    right: -5%;
+    font-size: 14vw;
   color: #8C3522;
-  font-size: 14vw;
-  text-align: center;
-  align-items: center;
+
 }
 /*main*/
 

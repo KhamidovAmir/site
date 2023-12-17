@@ -28,13 +28,12 @@ footer {
     
 }
 .text-header {
-    position: absolute;
+    position: relative;
+    width: 50vw;
     top: 20%;
-    right: 5%;
+    right: -5%;
     color: #CA5251;
     font-size: 14vw;
-    text-align: center;
-    align-items: center;
 }
 /*main*/
 
