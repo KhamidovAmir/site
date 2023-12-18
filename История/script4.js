@@ -39,7 +39,7 @@ const kvizData =[
         a:"Фёдор Матвееевич Апраксин", 
         b:"Зотов Никита Моисеевич",
         c:"Крюйс Корнелий",
-        correct:"с"
+        correct:"c"
     }
 ]
 const kviz = document.getElementById('kviz');
